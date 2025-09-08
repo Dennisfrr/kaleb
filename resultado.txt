@@ -1,0 +1,642 @@
+=== SISTEMA CORTICAL COM PLASTICIDADE SINÁPTICA ===
+Batches: 100%|████████████████████████████████████████████████████████████████████████████| 2/2 [00:17<00:00,  8.62s/it]
+--- Inicializando subespaços semânticos ---
+Subespaço 0 (semantico_0): 10 componentes (variância explicada: 0.594)
+Subespaço 1 (semantico_1): 10 componentes (variância explicada: 0.214)
+Subespaço 2 (semantico_2): 10 componentes (variância explicada: 0.114)
+Subespaço 3 (semantico_3): 10 componentes (variância explicada: 0.059)
+--- Extraindo fragmentos com clustering hierárquico ---
+Subespaço 0: 7 fragmentos hierárquicos criados
+Subespaço 1: 7 fragmentos hierárquicos criados
+Subespaço 2: 7 fragmentos hierárquicos criados
+Subespaço 3: 7 fragmentos hierárquicos criados
+--- Construindo índices Faiss otimizados ---
+Subespaço 0: Índice com 7 vetores
+Subespaço 1: Índice com 7 vetores
+Subespaço 2: Índice com 7 vetores
+Subespaço 3: Índice com 7 vetores
+=== DEMONSTRAÇÃO SISTEMA COM PLASTICIDADE SINÁPTICA ===
+
+[1/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Como redes neurais artificiais simulam plasticidade cerebral?'
+     Fragmentos ativados: 13, Dinâmicos criados: 0
+       >> Plasticidade alta em frag_1: 0.072 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_19: 0.054 (meta: 1.00, estado: normal)
+       >> Sinapses: 0 atualizadas, 12 criadas
+       >> Recompensa aplicada a 12 sinapses (3-fatores).
+       >> Commit elegibilidade: 64 arestas atualizadas
+Fragmentos ativados: 13
+Plasticidade aplicada: 11 fragmentos
+Rede sináptica: 32 sinapses (12 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.772] Redes neurais artificiais simulam o processamento cerebral humano.
+     Explicação: Pontuação: 2.77. Relevância direta via frag_1 (subespaço 0, sim: 0.90), frag_11 (subespaço 1, sim: 0.31), frag_19 (subespaço 2, sim: 0.67), frag_18 (subespaço 2, sim: 0.56), frag_15 (subespaço 2, sim: 0.44), frag_27 (subespaço 3, sim: 0.55), frag_23 (subespaço 3, sim: 0.54), frag_26 (subespaço 3, sim: 0.14).
+  2. [2.297] Interdisciplinaridade conecta diferentes áreas do conhecimento humano.
+     Explicação: Pontuação: 2.30. Relevância direta via frag_1 (subespaço 0, sim: 0.90), frag_18 (subespaço 2, sim: 0.56), frag_19 (subespaço 2, sim: 0.67), frag_20 (subespaço 2, sim: 0.56), frag_23 (subespaço 3, sim: 0.54), frag_24 (subespaço 3, sim: 0.30), frag_27 (subespaço 3, sim: 0.55).
+  3. [2.200] Homeostase sináptica mantém equilíbrio da atividade neural.
+     Explicação: Pontuação: 2.20. Relevância direta via frag_1 (subespaço 0, sim: 0.90), frag_12 (subespaço 1, sim: 0.53), frag_11 (subespaço 1, sim: 0.31), frag_18 (subespaço 2, sim: 0.56), frag_20 (subespaço 2, sim: 0.56), frag_24 (subespaço 3, sim: 0.30), frag_23 (subespaço 3, sim: 0.54).
+
+[2/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Que papel tem a metaplasticidade no aprendizado adaptativo?'
+     Fragmentos ativados: 15, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       >> Plasticidade alta em frag_3: 0.062 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_1: 0.054 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_7: 0.063 (meta: 1.00, estado: normal)
+       >> Sinapses: 13 atualizadas, 15 criadas
+       >> Recompensa aplicada a 33 sinapses (3-fatores).
+       >> Commit elegibilidade: 118 arestas atualizadas
+Fragmentos ativados: 15
+Plasticidade aplicada: 7 fragmentos
+Rede sináptica: 59 sinapses (27 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.799] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 2.80. Relevância direta via frag_1 (subespaço 0, sim: 0.68), frag_7 (subespaço 1, sim: 0.79), frag_13 (subespaço 1, sim: 0.11), frag_20 (subespaço 2, sim: 0.56), frag_19 (subespaço 2, sim: 0.25), frag_15 (subespaço 2, sim: 0.38), frag_21 (subespaço 3, sim: 0.61), frag_23 (subespaço 3, sim: 0.40), frag_24 (subespaço 3, sim: 0.29).
+  2. [2.311] Aprendizado contínuo fortalece conexões entre conhecimentos diversos.
+     Explicação: Pontuação: 2.31. Relevância direta via frag_3 (subespaço 0, sim: 0.78), frag_1 (subespaço 0, sim: 0.68), frag_7 (subespaço 1, sim: 0.79), frag_8 (subespaço 1, sim: 0.20), frag_13 (subespaço 1, sim: 0.11), frag_19 (subespaço 2, sim: 0.25), frag_23 (subespaço 3, sim: 0.40), frag_24 (subespaço 3, sim: 0.29), frag_27 (subespaço 3, sim: 0.13).
+  3. [2.138] Inteligência artificial bio-inspirada imita plasticidade neural adaptativa.
+     Explicação: Pontuação: 2.14. Relevância direta via frag_1 (subespaço 0, sim: 0.68), frag_7 (subespaço 1, sim: 0.79), frag_19 (subespaço 2, sim: 0.25), frag_20 (subespaço 2, sim: 0.56), frag_21 (subespaço 3, sim: 0.61), frag_26 (subespaço 3, sim: 0.29).
+
+[3/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Gestão de equipes requer adaptabilidade constante e flexibilidade.'
+       >> Fragmento dinâmico 28 criado (novelty: 0.614)
+     Fragmentos ativados: 17, Dinâmicos criados: 1
+       >> Propagando ativação pela rede...
+       ... Passo 1: 2 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_7: 0.066 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_19: 0.051 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_28: 0.080 (meta: 1.00, estado: normal)
+       >> Sinapse 19-1 consolidada (uso: 3)
+       >> Sinapse 15-1 consolidada (uso: 3)
+       >> Sinapses: 22 atualizadas, 15 criadas
+       >> Commit elegibilidade: 176 arestas atualizadas
+Fragmentos ativados: 19
+Plasticidade aplicada: 9 fragmentos
+Rede sináptica: 88 sinapses (29 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.456] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 2.46. Relevância direta via frag_1 (subespaço 0, sim: 0.25), frag_4 (subespaço 0, sim: 0.60), frag_7 (subespaço 1, sim: 0.90), frag_13 (subespaço 1, sim: 0.28), frag_20 (subespaço 2, sim: 0.58), frag_19 (subespaço 2, sim: 0.63), frag_15 (subespaço 2, sim: 0.62), frag_21 (subespaço 3, sim: 0.40). Relevância associativa via frag_23 (ativado por associação), frag_24 (ativado por associação).
+  2. [2.182] Plasticidade sináptica permite adaptação contínua do sistema nervoso.
+     Explicação: Pontuação: 2.18. Relevância direta via frag_1 (subespaço 0, sim: 0.25), frag_7 (subespaço 1, sim: 0.90), frag_10 (subespaço 1, sim: 0.10), frag_13 (subespaço 1, sim: 0.28), frag_20 (subespaço 2, sim: 0.58), frag_18 (subespaço 2, sim: 0.33), frag_19 (subespaço 2, sim: 0.63), frag_25 (subespaço 3, sim: 0.29). Relevância associativa via frag_23 (ativado por associação).
+  3. [1.985] Inteligência artificial bio-inspirada imita plasticidade neural adaptativa.
+     Explicação: Pontuação: 1.99. Relevância direta via frag_1 (subespaço 0, sim: 0.25), frag_7 (subespaço 1, sim: 0.90), frag_19 (subespaço 2, sim: 0.63), frag_18 (subespaço 2, sim: 0.33), frag_20 (subespaço 2, sim: 0.58), frag_21 (subespaço 3, sim: 0.40), frag_26 (subespaço 3, sim: 0.10).
+
+[4/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Plasticidade sináptica permite adaptação contínua do sistema nervoso.'
+     Fragmentos ativados: 16, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 2 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_1: 0.064 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_20: 0.056 (meta: 1.00, estado: normal)
+       >> Sinapse 20-23 consolidada (uso: 3)
+       >> Sinapse 19-23 consolidada (uso: 3)
+       >> Sinapses: 23 atualizadas, 3 criadas
+       >> Recompensa aplicada a 69 sinapses (3-fatores).
+       >> Commit elegibilidade: 210 arestas atualizadas
+Fragmentos ativados: 18
+Plasticidade aplicada: 10 fragmentos
+Rede sináptica: 105 sinapses (49 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [3.159] Plasticidade sináptica permite adaptação contínua do sistema nervoso.
+     Explicação: Pontuação: 3.16. Relevância direta via frag_1 (subespaço 0, sim: 0.80), frag_7 (subespaço 1, sim: 0.71), frag_10 (subespaço 1, sim: 0.45), frag_13 (subespaço 1, sim: 0.37), frag_20 (subespaço 2, sim: 0.70), frag_18 (subespaço 2, sim: 0.57), frag_19 (subespaço 2, sim: 0.45), frag_25 (subespaço 3, sim: 0.60), frag_23 (subespaço 3, sim: 0.22).
+  2. [2.338] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 2.34. Relevância direta via frag_1 (subespaço 0, sim: 0.80), frag_7 (subespaço 1, sim: 0.71), frag_13 (subespaço 1, sim: 0.37), frag_20 (subespaço 2, sim: 0.70), frag_19 (subespaço 2, sim: 0.45), frag_23 (subespaço 3, sim: 0.22), frag_24 (subespaço 3, sim: 0.17). Relevância associativa via frag_15 (ativado por associação).
+  3. [2.209] Aprendizado contínuo fortalece conexões entre conhecimentos diversos.
+     Explicação: Pontuação: 2.21. Relevância direta via frag_1 (subespaço 0, sim: 0.80), frag_7 (subespaço 1, sim: 0.71), frag_8 (subespaço 1, sim: 0.13), frag_13 (subespaço 1, sim: 0.37), frag_18 (subespaço 2, sim: 0.57), frag_19 (subespaço 2, sim: 0.45), frag_17 (subespaço 2, sim: 0.47), frag_23 (subespaço 3, sim: 0.22), frag_24 (subespaço 3, sim: 0.17). Relevância associativa via frag_3 (ativado por associação).
+
+[5/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Como algoritmos de machine learning imitam processos neurais?'
+       >> Fragmento dinâmico 29 criado (novelty: 0.861)
+     Fragmentos ativados: 14, Dinâmicos criados: 1
+       >> Propagando ativação pela rede...
+       ... Passo 1: 7 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_29: 0.080 (meta: 1.00, estado: normal)
+       >> Sinapse 15-3 consolidada (uso: 3)
+       >> Sinapse 1-18 consolidada (uso: 3)
+       >> Sinapse 23-18 consolidada (uso: 3)
+       >> Sinapse 20-3 consolidada (uso: 3)
+       >> Sinapses: 15 atualizadas, 8 criadas
+       >> Commit elegibilidade: 246 arestas atualizadas
+
+=== CONSOLIDAÇÃO E PLASTICIDADE SINÁPTICA (interação 5) ===
+--- Detecção progressiva de comunidades ---
+Threshold 0.15: 2 comunidades detectadas
+--- Criando relações conceituais entre 2 comunidades ---
+Conexão conceitual: concept_L0_0_t15 <-> concept_L0_1_t15 (força: 0.093)
+--- Detecção progressiva de comunidades ---
+Threshold 0.15: 2 comunidades detectadas
+--- Criando relações conceituais entre 2 comunidades ---
+Conexão conceitual: concept_L0_0_t15 <-> concept_L0_1_t15 (força: 0.093)
+       >> Poda sináptica: 2 removidas (2 voláteis, 0 LTD)
+Fragmentos ativados: 21
+Plasticidade aplicada: 7 fragmentos
+Rede sináptica: 121 sinapses (53 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [1.893] Algoritmos de machine learning revolucionam a análise de dados complexos.
+     Explicação: Pontuação: 1.89. Relevância direta via frag_2 (subespaço 0, sim: 0.58), frag_3 (subespaço 0, sim: 0.21), frag_1 (subespaço 0, sim: 0.59), frag_15 (subespaço 2, sim: 0.62), frag_20 (subespaço 2, sim: 0.35), frag_19 (subespaço 2, sim: 0.12), frag_22 (subespaço 3, sim: 0.44), frag_23 (subespaço 3, sim: 0.39).
+  2. [1.491] Redes neurais artificiais simulam o processamento cerebral humano.
+     Explicação: Pontuação: 1.49. Relevância direta via frag_1 (subespaço 0, sim: 0.59), frag_2 (subespaço 0, sim: 0.58), frag_11 (subespaço 1, sim: 0.14), frag_19 (subespaço 2, sim: 0.12), frag_18 (subespaço 2, sim: 0.22), frag_15 (subespaço 2, sim: 0.62), frag_23 (subespaço 3, sim: 0.39). Relevância associativa via frag_27 (ativado por associação).
+  3. [1.373] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 1.37. Relevância direta via frag_1 (subespaço 0, sim: 0.59), frag_20 (subespaço 2, sim: 0.35), frag_19 (subespaço 2, sim: 0.12), frag_15 (subespaço 2, sim: 0.62), frag_21 (subespaço 3, sim: 0.02), frag_23 (subespaço 3, sim: 0.39), frag_24 (subespaço 3, sim: 0.16). Relevância associativa via frag_4 (ativado por associação), frag_7 (ativado por associação).
+
+[6/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Liderança adaptativa espelha flexibilidade das conexões cerebrais.'
+     Fragmentos ativados: 17, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 5 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_1: 0.054 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_24: 0.054 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_23: 0.052 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_21: 0.053 (meta: 1.00, estado: normal)
+       >> Sinapse 1-12 consolidada (uso: 3)
+       >> Sinapse 21-3 consolidada (uso: 3)
+       >> Sinapse 23-3 consolidada (uso: 3)
+       >> Sinapse 20-12 consolidada (uso: 3)
+       >> Sinapse 19-12 consolidada (uso: 3)
+       >> Sinapse 7-3 consolidada (uso: 3)
+       >> Sinapse 7-14 consolidada (uso: 3)
+       >> Sinapses: 40 atualizadas, 23 criadas
+       >> Recompensa aplicada a 77 sinapses (3-fatores).
+       >> Commit elegibilidade: 298 arestas atualizadas
+       >> Reindexando FAISS (subset sujo)...
+Fragmentos ativados: 22
+Plasticidade aplicada: 10 fragmentos
+Rede sináptica: 149 sinapses (85 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [3.443] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 3.08. Relevância direta via frag_1 (subespaço 0, sim: 0.67), frag_4 (subespaço 0, sim: 0.22), frag_7 (subespaço 1, sim: 0.37), frag_13 (subespaço 1, sim: 0.38), frag_20 (subespaço 2, sim: 0.55), frag_19 (subespaço 2, sim: 0.42), frag_15 (subespaço 2, sim: 0.41), frag_21 (subespaço 3, sim: 0.66), frag_23 (subespaço 3, sim: 0.65), frag_24 (subespaço 3, sim: 0.67).
+  2. [2.520] Redes colaborativas emergem através de conexões repetidas e fortalecidas.
+     Explicação: Pontuação: 2.24. Relevância direta via frag_1 (subespaço 0, sim: 0.67), frag_4 (subespaço 0, sim: 0.22), frag_3 (subespaço 0, sim: 0.16), frag_12 (subespaço 1, sim: 0.15), frag_15 (subespaço 2, sim: 0.41), frag_19 (subespaço 2, sim: 0.42), frag_21 (subespaço 3, sim: 0.66), frag_23 (subespaço 3, sim: 0.65), frag_24 (subespaço 3, sim: 0.67).
+  3. [2.255] Sono reparador restaura funções cognitivas cerebrais importantes.
+     Explicação: Pontuação: 2.05. Relevância direta via frag_1 (subespaço 0, sim: 0.67), frag_6 (subespaço 0, sim: 0.26), frag_13 (subespaço 1, sim: 0.38), frag_15 (subespaço 2, sim: 0.41), frag_19 (subespaço 2, sim: 0.42), frag_24 (subespaço 3, sim: 0.67), frag_23 (subespaço 3, sim: 0.65). Relevância associativa via frag_18 (ativado por associação), frag_25 (ativado por associação).
+
+[7/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Sustentabilidade ambiental requer inovação tecnológica constante.'
+       >> Fragmento dinâmico 30 criado (novelty: 0.619)
+     Fragmentos ativados: 16, Dinâmicos criados: 1
+       >> Propagando ativação pela rede...
+       ... Passo 1: 8 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_7: 0.056 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_19: 0.055 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_18: 0.056 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_30: 0.080 (meta: 1.00, estado: normal)
+       >> Sinapse 7-4 consolidada (uso: 3)
+       >> Sinapse 7-23 consolidada (uso: 3)
+       >> Sinapse 18-12 consolidada (uso: 3)
+       >> Sinapse 19-4 consolidada (uso: 3)
+       >> Sinapse 14-28 consolidada (uso: 3)
+       >> Sinapses: 25 atualizadas, 12 criadas
+       >> Commit elegibilidade: 350 arestas atualizadas
+Fragmentos ativados: 24
+Plasticidade aplicada: 7 fragmentos
+Rede sináptica: 175 sinapses (90 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.449] Biodiversidade garante equilíbrio dos ecossistemas naturais complexos.
+     Explicação: Pontuação: 2.27. Relevância direta via frag_0 (subespaço 0, sim: 0.62), frag_13 (subespaço 1, sim: 0.45), frag_12 (subespaço 1, sim: 0.19), frag_7 (subespaço 1, sim: 0.70), frag_19 (subespaço 2, sim: 0.68), frag_18 (subespaço 2, sim: 0.70), frag_25 (subespaço 3, sim: 0.18). Relevância associativa via frag_16 (ativado por associação).
+  2. [2.241] Inovação empresarial gera vantagem competitiva sustentável e duradoura.
+     Explicação: Pontuação: 2.06. Relevância direta via frag_4 (subespaço 0, sim: 0.29), frag_7 (subespaço 1, sim: 0.70), frag_13 (subespaço 1, sim: 0.45), frag_19 (subespaço 2, sim: 0.68), frag_18 (subespaço 2, sim: 0.70), frag_27 (subespaço 3, sim: 0.38). Relevância associativa via frag_16 (ativado por associação).
+  3. [2.128] Aprendizado contínuo fortalece conexões entre conhecimentos diversos.
+     Explicação: Pontuação: 1.93. Relevância direta via frag_7 (subespaço 1, sim: 0.70), frag_13 (subespaço 1, sim: 0.45), frag_18 (subespaço 2, sim: 0.70), frag_19 (subespaço 2, sim: 0.68), frag_23 (subespaço 3, sim: 0.13), frag_27 (subespaço 3, sim: 0.38). Relevância associativa via frag_3 (ativado por associação), frag_1 (ativado por associação), frag_17 (ativado por associação), frag_24 (ativado por associação).
+
+[8/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Educação personalizada utiliza inteligência artificial avançada.'
+     Fragmentos ativados: 16, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 8 novos fragmentos ativados por associação.
+       >> Sinapse 21-1 consolidada (uso: 3)
+       >> Sinapse 7-1 consolidada (uso: 3)
+       >> Sinapse 23-1 consolidada (uso: 3)
+       >> Homeostase Sináptica: 1 fragmentos normalizados.
+       >> Sinapses: 39 atualizadas, 9 criadas
+       >> Commit elegibilidade: 378 arestas atualizadas
+Fragmentos ativados: 24
+Plasticidade aplicada: 9 fragmentos
+Rede sináptica: 189 sinapses (93 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.336] Aprendizado contínuo fortalece conexões entre conhecimentos diversos.
+     Explicação: Pontuação: 2.12. Relevância direta via frag_3 (subespaço 0, sim: 0.61), frag_1 (subespaço 0, sim: 0.14), frag_2 (subespaço 0, sim: 0.55), frag_7 (subespaço 1, sim: 0.44), frag_18 (subespaço 2, sim: 0.62), frag_19 (subespaço 2, sim: 0.17), frag_17 (subespaço 2, sim: 0.11), frag_23 (subespaço 3, sim: 0.37), frag_24 (subespaço 3, sim: 0.16). Relevância associativa via frag_13 (ativado por associação), frag_27 (ativado por associação).
+  2. [1.870] Ensino híbrido combina presencial e digital eficientemente.
+     Explicação: Pontuação: 1.71. Relevância direta via frag_3 (subespaço 0, sim: 0.61), frag_2 (subespaço 0, sim: 0.55), frag_12 (subespaço 1, sim: 0.18), frag_17 (subespaço 2, sim: 0.11), frag_18 (subespaço 2, sim: 0.62), frag_20 (subespaço 2, sim: 0.03), frag_26 (subespaço 3, sim: 0.32), frag_21 (subespaço 3, sim: 0.62). Relevância associativa via frag_4 (ativado por associação), frag_13 (ativado por associação).
+  3. [1.862] Algoritmos de machine learning revolucionam a análise de dados complexos.
+     Explicação: Pontuação: 1.67. Relevância direta via frag_2 (subespaço 0, sim: 0.55), frag_3 (subespaço 0, sim: 0.61), frag_1 (subespaço 0, sim: 0.14), frag_10 (subespaço 1, sim: 0.33), frag_15 (subespaço 2, sim: 0.42), frag_20 (subespaço 2, sim: 0.03), frag_19 (subespaço 2, sim: 0.17), frag_22 (subespaço 3, sim: 0.31), frag_23 (subespaço 3, sim: 0.37).
+
+[9/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Bem-estar mental impacta performance organizacional significativamente.'
+     Fragmentos ativados: 17, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 6 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_4: 0.051 (meta: 1.00, estado: normal)
+       >> Sinapse 4-28 consolidada (uso: 3)
+       >> Sinapse 23-22 consolidada (uso: 3)
+       >> Sinapse 20-28 consolidada (uso: 3)
+       >> Sinapse 20-21 consolidada (uso: 3)
+       >> Sinapse 15-28 consolidada (uso: 3)
+       >> Sinapse 19-28 consolidada (uso: 3)
+       >> Sinapse 19-21 consolidada (uso: 3)
+       >> Homeostase Sináptica: 3 fragmentos normalizados.
+       >> Sinapses: 37 atualizadas, 10 criadas
+       >> Commit elegibilidade: 418 arestas atualizadas
+Fragmentos ativados: 23
+Plasticidade aplicada: 10 fragmentos
+Rede sináptica: 209 sinapses (100 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.538] Bem-estar mental impacta qualidade de vida profundamente.
+     Explicação: Pontuação: 2.33. Relevância direta via frag_6 (subespaço 0, sim: 0.55), frag_4 (subespaço 0, sim: 0.64), frag_9 (subespaço 1, sim: 0.36), frag_12 (subespaço 1, sim: 0.17), frag_18 (subespaço 2, sim: 0.45), frag_19 (subespaço 2, sim: 0.32), frag_20 (subespaço 2, sim: 0.47), frag_26 (subespaço 3, sim: 0.55), frag_23 (subespaço 3, sim: 0.54). Relevância associativa via frag_25 (ativado por associação).
+  2. [2.425] Cultura organizacional influencia performance dos times significativamente.
+     Explicação: Pontuação: 2.21. Relevância direta via frag_4 (subespaço 0, sim: 0.64), frag_9 (subespaço 1, sim: 0.36), frag_13 (subespaço 1, sim: 0.30), frag_20 (subespaço 2, sim: 0.47), frag_19 (subespaço 2, sim: 0.32), frag_14 (subespaço 2, sim: 0.27), frag_22 (subespaço 3, sim: 0.59), frag_23 (subespaço 3, sim: 0.54), frag_26 (subespaço 3, sim: 0.55). Relevância associativa via frag_3 (ativado por associação).
+  3. [1.771] Transformação digital acelera processos internos das empresas.
+     Explicação: Pontuação: 1.63. Relevância direta via frag_4 (subespaço 0, sim: 0.64), frag_13 (subespaço 1, sim: 0.30), frag_12 (subespaço 1, sim: 0.17), frag_9 (subespaço 1, sim: 0.36), frag_19 (subespaço 2, sim: 0.32), frag_18 (subespaço 2, sim: 0.45), frag_23 (subespaço 3, sim: 0.54), frag_26 (subespaço 3, sim: 0.55). Relevância associativa via frag_3 (ativado por associação), frag_16 (ativado por associação), frag_24 (ativado por associação).
+
+[10/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Redes neurais artificiais simulam processamento cerebral humano.'
+     Fragmentos ativados: 16, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 7 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_1: 0.055 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_11: 0.054 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_19: 0.053 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_27: 0.057 (meta: 1.00, estado: normal)
+       >> Sinapse 27-12 consolidada (uso: 3)
+       >> Sinapse 1-2 consolidada (uso: 3)
+       >> Sinapse 23-2 consolidada (uso: 3)
+       >> Homeostase Sináptica: 4 fragmentos normalizados.
+       >> Sinapses: 29 atualizadas, 5 criadas
+       >> Commit elegibilidade: 446 arestas atualizadas
+
+=== CONSOLIDAÇÃO E PLASTICIDADE SINÁPTICA (interação 10) ===
+--- Detecção progressiva de comunidades ---
+Threshold 0.15: 4 comunidades detectadas
+--- Criando relações conceituais entre 4 comunidades ---
+Conexão conceitual: concept_L0_0_t15 <-> concept_L0_2_t15 (força: 0.056)
+Conexão conceitual: concept_L0_1_t15 <-> concept_L0_2_t15 (força: 0.051)
+       >> Controle de Crescimento (subset): 6 sinapses podadas.
+--- Detecção progressiva de comunidades ---
+Threshold 0.15: 4 comunidades detectadas
+--- Criando relações conceituais entre 4 comunidades ---
+Conexão conceitual: concept_L0_0_t15 <-> concept_L0_2_t15 (força: 0.054)
+Conexão conceitual: concept_L0_1_t15 <-> concept_L0_2_t15 (força: 0.051)
+       >> Poda sináptica: 23 removidas (23 voláteis, 0 LTD)
+Fragmentos ativados: 23
+Plasticidade aplicada: 7 fragmentos
+Rede sináptica: 194 sinapses (100 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [3.083] Redes neurais artificiais simulam o processamento cerebral humano.
+     Explicação: Pontuação: 2.77. Relevância direta via frag_1 (subespaço 0, sim: 0.69), frag_2 (subespaço 0, sim: 0.30), frag_11 (subespaço 1, sim: 0.69), frag_19 (subespaço 2, sim: 0.66), frag_18 (subespaço 2, sim: 0.44), frag_15 (subespaço 2, sim: 0.42), frag_27 (subespaço 3, sim: 0.71), frag_23 (subespaço 3, sim: 0.26), frag_26 (subespaço 3, sim: 0.07).
+  2. [1.924] Interdisciplinaridade conecta diferentes áreas do conhecimento humano.
+     Explicação: Pontuação: 1.73. Relevância direta via frag_3 (subespaço 0, sim: 0.08), frag_1 (subespaço 0, sim: 0.69), frag_18 (subespaço 2, sim: 0.44), frag_19 (subespaço 2, sim: 0.66), frag_20 (subespaço 2, sim: 0.29), frag_23 (subespaço 3, sim: 0.26), frag_24 (subespaço 3, sim: 0.07), frag_27 (subespaço 3, sim: 0.71).
+  3. [1.867] Aprendizado contínuo fortalece conexões entre conhecimentos diversos.
+     Explicação: Pontuação: 1.69. Relevância direta via frag_3 (subespaço 0, sim: 0.08), frag_1 (subespaço 0, sim: 0.69), frag_2 (subespaço 0, sim: 0.30), frag_18 (subespaço 2, sim: 0.44), frag_19 (subespaço 2, sim: 0.66), frag_23 (subespaço 3, sim: 0.26), frag_24 (subespaço 3, sim: 0.07), frag_27 (subespaço 3, sim: 0.71). Relevância associativa via frag_7 (ativado por associação), frag_17 (ativado por associação).
+
+[11/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Metaplasticidade regula capacidade de mudança das conexões neurais.'
+     Fragmentos ativados: 14, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 9 novos fragmentos ativados por associação.
+       >> Homeostase Sináptica: 2 fragmentos normalizados.
+       >> Sinapses: 8 atualizadas, 1 criadas
+       >> Commit elegibilidade: 398 arestas atualizadas
+Fragmentos ativados: 23
+Plasticidade aplicada: 5 fragmentos
+Rede sináptica: 199 sinapses (100 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [1.912] Metaplasticidade regula a capacidade de mudança das conexões neurais.
+     Explicação: Pontuação: 1.73. Relevância direta via frag_1 (subespaço 0, sim: 0.82), frag_10 (subespaço 1, sim: 0.58), frag_12 (subespaço 1, sim: 0.20), frag_13 (subespaço 1, sim: 0.24), frag_20 (subespaço 2, sim: 0.62), frag_15 (subespaço 2, sim: 0.16), frag_19 (subespaço 2, sim: 0.07), frag_27 (subespaço 3, sim: 0.61).
+  2. [1.494] Plasticidade sináptica permite adaptação contínua do sistema nervoso.
+     Explicação: Pontuação: 1.35. Relevância direta via frag_1 (subespaço 0, sim: 0.82), frag_7 (subespaço 1, sim: 0.01), frag_10 (subespaço 1, sim: 0.58), frag_13 (subespaço 1, sim: 0.24), frag_20 (subespaço 2, sim: 0.62), frag_18 (subespaço 2, sim: 0.02), frag_19 (subespaço 2, sim: 0.07). Relevância associativa via frag_23 (ativado por associação).
+  3. [1.220] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 1.08. Relevância direta via frag_1 (subespaço 0, sim: 0.82), frag_7 (subespaço 1, sim: 0.01), frag_13 (subespaço 1, sim: 0.24), frag_20 (subespaço 2, sim: 0.62), frag_19 (subespaço 2, sim: 0.07), frag_15 (subespaço 2, sim: 0.16). Relevância associativa via frag_4 (ativado por associação), frag_21 (ativado por associação), frag_23 (ativado por associação).
+
+[12/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Sistemas auto-organizados desenvolvem padrões através de uso frequente.'
+     Fragmentos ativados: 16, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 10 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_29: 0.077 (meta: 1.50, estado: potentiated)
+       >> Plasticidade alta em frag_18: 0.051 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_24: 0.054 (meta: 1.00, estado: normal)
+       >> Sinapse 18-21 consolidada (uso: 3)
+       >> Sinapse 2-19 consolidada (uso: 3)
+       >> Sinapse 2-15 consolidada (uso: 3)
+       >> Sinapse 2-3 consolidada (uso: 3)
+       >> Sinapse 15-4 consolidada (uso: 3)
+       >> Sinapse 20-4 consolidada (uso: 3)
+       >> Homeostase Sináptica: 3 fragmentos normalizados.
+       >> Sinapses: 48 atualizadas, 15 criadas
+       >> Commit elegibilidade: 444 arestas atualizadas
+       >> Reindexando FAISS (subset sujo)...
+Fragmentos ativados: 26
+Plasticidade aplicada: 7 fragmentos
+Rede sináptica: 222 sinapses (106 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.486] Sistemas auto-organizados desenvolvem padrões através de uso frequente.
+     Explicação: Pontuação: 2.21. Relevância direta via frag_1 (subespaço 0, sim: 0.29), frag_2 (subespaço 0, sim: 0.39), frag_4 (subespaço 0, sim: 0.24), frag_9 (subespaço 1, sim: 0.55), frag_18 (subespaço 2, sim: 0.63), frag_20 (subespaço 2, sim: 0.28), frag_19 (subespaço 2, sim: 0.33), frag_24 (subespaço 3, sim: 0.68), frag_25 (subespaço 3, sim: 0.30), frag_23 (subespaço 3, sim: 0.15).
+  2. [1.909] Aprendizado contínuo fortalece conexões entre conhecimentos diversos.
+     Explicação: Pontuação: 1.72. Relevância direta via frag_3 (subespaço 0, sim: 0.23), frag_1 (subespaço 0, sim: 0.29), frag_2 (subespaço 0, sim: 0.39), frag_18 (subespaço 2, sim: 0.63), frag_19 (subespaço 2, sim: 0.33), frag_17 (subespaço 2, sim: 0.24), frag_23 (subespaço 3, sim: 0.15), frag_24 (subespaço 3, sim: 0.68). Relevância associativa via frag_7 (ativado por associação), frag_13 (ativado por associação), frag_27 (ativado por associação).
+  3. [1.812] Interdisciplinaridade conecta diferentes áreas do conhecimento humano.
+     Explicação: Pontuação: 1.61. Relevância direta via frag_3 (subespaço 0, sim: 0.23), frag_1 (subespaço 0, sim: 0.29), frag_18 (subespaço 2, sim: 0.63), frag_19 (subespaço 2, sim: 0.33), frag_20 (subespaço 2, sim: 0.28), frag_23 (subespaço 3, sim: 0.15), frag_24 (subespaço 3, sim: 0.68). Relevância associativa via frag_27 (ativado por associação).
+
+[13/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Aprendizado contínuo fortalece conexões entre conhecimentos diversos.'
+     Fragmentos ativados: 18, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 8 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_3: 0.055 (meta: 1.00, estado: normal)
+       >> Plasticidade alta em frag_23: 0.051 (meta: 1.00, estado: normal)
+       >> Sinapse 18-14 consolidada (uso: 3)
+       >> Sinapse 18-13 consolidada (uso: 3)
+       >> Sinapse 19-13 consolidada (uso: 3)
+       >> Sinapse 2-21 consolidada (uso: 3)
+       >> Homeostase Sináptica: 5 fragmentos normalizados.
+       >> Sinapses: 34 atualizadas, 12 criadas
+       >> Recompensa aplicada a 123 sinapses (3-fatores).
+       >> Commit elegibilidade: 490 arestas atualizadas
+Fragmentos ativados: 26
+Plasticidade aplicada: 9 fragmentos
+Rede sináptica: 245 sinapses (161 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [3.609] Aprendizado contínuo fortalece conexões entre conhecimentos diversos.
+     Explicação: Pontuação: 3.24. Relevância direta via frag_3 (subespaço 0, sim: 0.69), frag_1 (subespaço 0, sim: 0.12), frag_2 (subespaço 0, sim: 0.29), frag_7 (subespaço 1, sim: 0.61), frag_8 (subespaço 1, sim: 0.58), frag_13 (subespaço 1, sim: 0.23), frag_18 (subespaço 2, sim: 0.58), frag_19 (subespaço 2, sim: 0.39), frag_17 (subespaço 2, sim: 0.41), frag_23 (subespaço 3, sim: 0.64), frag_24 (subespaço 3, sim: 0.35), frag_27 (subespaço 3, sim: 0.31).
+  2. [2.810] Interdisciplinaridade conecta diferentes áreas do conhecimento humano.
+     Explicação: Pontuação: 2.50. Relevância direta via frag_3 (subespaço 0, sim: 0.69), frag_1 (subespaço 0, sim: 0.12), frag_8 (subespaço 1, sim: 0.58), frag_18 (subespaço 2, sim: 0.58), frag_19 (subespaço 2, sim: 0.39), frag_20 (subespaço 2, sim: 0.10), frag_23 (subespaço 3, sim: 0.64), frag_24 (subespaço 3, sim: 0.35), frag_27 (subespaço 3, sim: 0.31).
+  3. [2.021] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 1.80. Relevância direta via frag_1 (subespaço 0, sim: 0.12), frag_4 (subespaço 0, sim: 0.06), frag_7 (subespaço 1, sim: 0.61), frag_13 (subespaço 1, sim: 0.23), frag_20 (subespaço 2, sim: 0.10), frag_19 (subespaço 2, sim: 0.39), frag_21 (subespaço 3, sim: 0.29), frag_23 (subespaço 3, sim: 0.64), frag_24 (subespaço 3, sim: 0.35). Relevância associativa via frag_15 (ativado por associação).
+
+[14/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Inteligência artificial bio-inspirada imita plasticidade neural adaptativa.'
+     Fragmentos ativados: 16, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 11 novos fragmentos ativados por associação.
+       >> Homeostase Sináptica: 8 fragmentos normalizados.
+       >> Sinapses: 18 atualizadas, 0 criadas
+       >> Commit elegibilidade: 494 arestas atualizadas
+Fragmentos ativados: 27
+Plasticidade aplicada: 8 fragmentos
+Rede sináptica: 247 sinapses (161 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.415] Inteligência artificial bio-inspirada imita plasticidade neural adaptativa.
+     Explicação: Pontuação: 2.12. Relevância direta via frag_1 (subespaço 0, sim: 0.52), frag_7 (subespaço 1, sim: 0.56), frag_19 (subespaço 2, sim: 0.46), frag_18 (subespaço 2, sim: 0.39), frag_20 (subespaço 2, sim: 0.35), frag_21 (subespaço 3, sim: 0.54), frag_26 (subespaço 3, sim: 0.40).
+  2. [2.164] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 1.92. Relevância direta via frag_1 (subespaço 0, sim: 0.52), frag_7 (subespaço 1, sim: 0.56), frag_20 (subespaço 2, sim: 0.35), frag_19 (subespaço 2, sim: 0.46), frag_15 (subespaço 2, sim: 0.16), frag_21 (subespaço 3, sim: 0.54), frag_23 (subespaço 3, sim: 0.03). Relevância associativa via frag_4 (ativado por associação), frag_13 (ativado por associação), frag_24 (ativado por associação).
+  3. [1.929] Plasticidade sináptica permite adaptação contínua do sistema nervoso.
+     Explicação: Pontuação: 1.74. Relevância direta via frag_1 (subespaço 0, sim: 0.52), frag_7 (subespaço 1, sim: 0.56), frag_10 (subespaço 1, sim: 0.08), frag_20 (subespaço 2, sim: 0.35), frag_18 (subespaço 2, sim: 0.39), frag_19 (subespaço 2, sim: 0.46), frag_23 (subespaço 3, sim: 0.03). Relevância associativa via frag_13 (ativado por associação), frag_25 (ativado por associação).
+
+[15/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.'
+     Fragmentos ativados: 18, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 8 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_21: 0.051 (meta: 1.00, estado: normal)
+       >> Homeostase Sináptica: 6 fragmentos normalizados.
+       >> Sinapses: 39 atualizadas, 0 criadas
+       >> Commit elegibilidade: 502 arestas atualizadas
+
+=== CONSOLIDAÇÃO E PLASTICIDADE SINÁPTICA (interação 15) ===
+--- Detecção progressiva de comunidades ---
+Threshold 0.15: 5 comunidades detectadas
+--- Criando relações conceituais entre 5 comunidades ---
+Conexão conceitual: concept_L0_0_t15 <-> concept_L0_2_t15 (força: 0.063)
+Conexão conceitual: concept_L0_1_t15 <-> concept_L0_2_t15 (força: 0.052)
+Conexão conceitual: concept_L0_1_t15 <-> concept_L0_3_t15 (força: 0.059)
+       >> Controle de Crescimento (subset): 8 sinapses podadas.
+       >> Poda sináptica: 22 removidas (17 voláteis, 5 LTD)
+Fragmentos ativados: 26
+Plasticidade aplicada: 10 fragmentos
+Rede sináptica: 221 sinapses (154 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [3.192] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 2.84. Relevância direta via frag_1 (subespaço 0, sim: 0.56), frag_4 (subespaço 0, sim: 0.27), frag_7 (subespaço 1, sim: 0.59), frag_13 (subespaço 1, sim: 0.45), frag_20 (subespaço 2, sim: 0.48), frag_19 (subespaço 2, sim: 0.36), frag_15 (subespaço 2, sim: 0.33), frag_21 (subespaço 3, sim: 0.64), frag_23 (subespaço 3, sim: 0.41), frag_24 (subespaço 3, sim: 0.34).
+  2. [2.143] Inteligência artificial bio-inspirada imita plasticidade neural adaptativa.
+     Explicação: Pontuação: 1.88. Relevância direta via frag_1 (subespaço 0, sim: 0.56), frag_7 (subespaço 1, sim: 0.59), frag_19 (subespaço 2, sim: 0.36), frag_18 (subespaço 2, sim: 0.04), frag_20 (subespaço 2, sim: 0.48), frag_21 (subespaço 3, sim: 0.64), frag_26 (subespaço 3, sim: 0.10).
+  3. [2.066] Plasticidade sináptica permite adaptação contínua do sistema nervoso.
+     Explicação: Pontuação: 1.86. Relevância direta via frag_1 (subespaço 0, sim: 0.56), frag_7 (subespaço 1, sim: 0.59), frag_13 (subespaço 1, sim: 0.45), frag_20 (subespaço 2, sim: 0.48), frag_18 (subespaço 2, sim: 0.04), frag_19 (subespaço 2, sim: 0.36), frag_23 (subespaço 3, sim: 0.41). Relevância associativa via frag_10 (ativado por associação), frag_25 (ativado por associação).
+
+[16/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Como metodologias ágeis aplicam princípios de plasticidade neural?'
+     Fragmentos ativados: 16, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 10 novos fragmentos ativados por associação.
+       >> Homeostase Sináptica: 6 fragmentos normalizados.
+       >> Sinapses: 18 atualizadas, 3 criadas
+       >> Commit elegibilidade: 450 arestas atualizadas
+Fragmentos ativados: 26
+Plasticidade aplicada: 3 fragmentos
+Rede sináptica: 225 sinapses (154 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.251] Plasticidade sináptica permite adaptação contínua do sistema nervoso.
+     Explicação: Pontuação: 1.98. Relevância direta via frag_1 (subespaço 0, sim: 0.62), frag_7 (subespaço 1, sim: 0.25), frag_10 (subespaço 1, sim: 0.24), frag_20 (subespaço 2, sim: 0.60), frag_18 (subespaço 2, sim: 0.18), frag_19 (subespaço 2, sim: 0.29), frag_25 (subespaço 3, sim: 0.56), frag_23 (subespaço 3, sim: 0.12). Relevância associativa via frag_13 (ativado por associação).
+  2. [1.648] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 1.44. Relevância direta via frag_1 (subespaço 0, sim: 0.62), frag_7 (subespaço 1, sim: 0.25), frag_20 (subespaço 2, sim: 0.60), frag_19 (subespaço 2, sim: 0.29), frag_15 (subespaço 2, sim: 0.06), frag_23 (subespaço 3, sim: 0.12), frag_24 (subespaço 3, sim: 0.08). Relevância associativa via frag_4 (ativado por associação), frag_13 (ativado por associação), frag_21 (ativado por associação).
+  3. [1.476] Inteligência artificial bio-inspirada imita plasticidade neural adaptativa.
+     Explicação: Pontuação: 1.29. Relevância direta via frag_1 (subespaço 0, sim: 0.62), frag_7 (subespaço 1, sim: 0.25), frag_19 (subespaço 2, sim: 0.29), frag_18 (subespaço 2, sim: 0.18), frag_20 (subespaço 2, sim: 0.60). Relevância associativa via frag_21 (ativado por associação), frag_26 (ativado por associação).
+
+[17/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Gamificação educacional utiliza reforço similar à potenciação sináptica.'
+     Fragmentos ativados: 18, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 8 novos fragmentos ativados por associação.
+       >> Plasticidade alta em frag_3: 0.057 (meta: 1.00, estado: normal)
+       >> Sinapse 1-26 consolidada (uso: 3)
+       >> Homeostase Sináptica: 6 fragmentos normalizados.
+       >> Sinapses: 22 atualizadas, 1 criadas
+       >> Commit elegibilidade: 454 arestas atualizadas
+Fragmentos ativados: 26
+Plasticidade aplicada: 7 fragmentos
+Rede sináptica: 227 sinapses (155 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [1.850] Gamificação torna aprendizagem mais envolvente e divertida.
+     Explicação: Pontuação: 1.63. Relevância direta via frag_3 (subespaço 0, sim: 0.71), frag_2 (subespaço 0, sim: 0.12), frag_1 (subespaço 0, sim: 0.30), frag_8 (subespaço 1, sim: 0.12), frag_15 (subespaço 2, sim: 0.39), frag_20 (subespaço 2, sim: 0.51), frag_16 (subespaço 2, sim: 0.34), frag_26 (subespaço 3, sim: 0.20), frag_25 (subespaço 3, sim: 0.06). Relevância associativa via frag_24 (ativado por associação).
+  2. [1.737] Metodologias ativas engajam estudantes no processo educativo.
+     Explicação: Pontuação: 1.53. Relevância direta via frag_3 (subespaço 0, sim: 0.71), frag_4 (subespaço 0, sim: 0.15), frag_10 (subespaço 1, sim: 0.05), frag_19 (subespaço 2, sim: 0.31), frag_20 (subespaço 2, sim: 0.51), frag_16 (subespaço 2, sim: 0.34), frag_25 (subespaço 3, sim: 0.06), frag_23 (subespaço 3, sim: 0.02).
+  3. [1.693] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 1.48. Relevância direta via frag_1 (subespaço 0, sim: 0.30), frag_4 (subespaço 0, sim: 0.15), frag_7 (subespaço 1, sim: 0.25), frag_20 (subespaço 2, sim: 0.51), frag_19 (subespaço 2, sim: 0.31), frag_15 (subespaço 2, sim: 0.39), frag_21 (subespaço 3, sim: 0.34), frag_23 (subespaço 3, sim: 0.02). Relevância associativa via frag_13 (ativado por associação), frag_24 (ativado por associação).
+
+[18/18] ============================================================
+
+>>> CONSULTA COM PLASTICIDADE SINÁPTICA: 'Transformação digital requer adaptabilidade inspirada em neuroplasticidade.'
+     Fragmentos ativados: 16, Dinâmicos criados: 0
+       >> Propagando ativação pela rede...
+       ... Passo 1: 11 novos fragmentos ativados por associação.
+       >> Homeostase Sináptica: 9 fragmentos normalizados.
+       >> Sinapses: 27 atualizadas, 19 criadas
+       >> Commit elegibilidade: 510 arestas atualizadas
+       >> Reindexando FAISS (subset sujo)...
+Fragmentos ativados: 27
+Plasticidade aplicada: 12 fragmentos
+Rede sináptica: 255 sinapses (155 consolidadas)
+Mudanças estruturais: Esp=0, Fusão=0
+Top resultados:
+  1. [2.153] Adaptabilidade organizacional espelha flexibilidade sináptica cerebral.
+     Explicação: Pontuação: 1.89. Relevância direta via frag_1 (subespaço 0, sim: 0.40), frag_7 (subespaço 1, sim: 0.09), frag_13 (subespaço 1, sim: 0.53), frag_20 (subespaço 2, sim: 0.38), frag_19 (subespaço 2, sim: 0.55), frag_15 (subespaço 2, sim: 0.43), frag_23 (subespaço 3, sim: 0.40), frag_24 (subespaço 3, sim: 0.41). Relevância associativa via frag_4 (ativado por associação), frag_21 (ativado por associação).
+  2. [1.969] Sono reparador restaura funções cognitivas cerebrais importantes.
+     Explicação: Pontuação: 1.73. Relevância direta via frag_1 (subespaço 0, sim: 0.40), frag_13 (subespaço 1, sim: 0.53), frag_15 (subespaço 2, sim: 0.43), frag_18 (subespaço 2, sim: 0.20), frag_19 (subespaço 2, sim: 0.55), frag_24 (subespaço 3, sim: 0.41), frag_23 (subespaço 3, sim: 0.40). Relevância associativa via frag_6 (ativado por associação), frag_25 (ativado por associação).
+  3. [1.837] Plasticidade sináptica permite adaptação contínua do sistema nervoso.
+     Explicação: Pontuação: 1.61. Relevância direta via frag_1 (subespaço 0, sim: 0.40), frag_7 (subespaço 1, sim: 0.09), frag_10 (subespaço 1, sim: 0.47), frag_13 (subespaço 1, sim: 0.53), frag_20 (subespaço 2, sim: 0.38), frag_18 (subespaço 2, sim: 0.20), frag_19 (subespaço 2, sim: 0.55), frag_23 (subespaço 3, sim: 0.40). Relevância associativa via frag_25 (ativado por associação).
+
+================================================================================
+ANÁLISE FINAL - SISTEMA COM PLASTICIDADE SINÁPTICA
+================================================================================
+
+FRAGMENT STATS:
+    total_fragments: 31
+    mean: 20.180
+    std: 10.754
+    max: 45.506
+    low_usage: 0
+    0: 7
+    1: 8
+    2: 7
+    3: 9
+    dynamic_fragments: 3
+    mean_adaptations: 4.774
+    max_adaptations: 13
+    adapted_fragments: 30
+    mean_specialization: 0.057
+    high_diversity: 0
+    states_distribution: {'normal': 31}
+    avg_activation_frequency: 0.234
+    high_frequency_fragments: 1
+
+NETWORK STATS:
+    nodes: 31
+    edges: 255
+    avg_clustering: 0.722
+    connected_components: 3
+    weight_distribution: {'mean': np.float64(0.06482488705072009), 'std': np.float64(0.059969719977969356), 'max': np.float64(0.40823306473980636), 'saturated_synapses': 0}
+    volatility: {'volatile_count': 100, 'consolidated_count': 155, 'volatility_ratio': 0.39215686274509803}
+    usage_patterns: {'mean_usage': np.float64(2.7019607843137257), 'max_usage': np.int64(14), 'highly_used_synapses': 25}
+    nodes: 5
+    edges: 4
+
+COMMUNITY STATS:
+    fragment_communities: 5
+    avg_community_size: 3.600
+
+LEARNING STATS:
+    total_interactions: 18
+    queries_processed: 18
+    avg_activations_per_query: 22.722
+
+PLASTICITY STATS:
+    vectors_adapted_total: 148
+    fragments_specialized: 0
+    fragments_fused: 0
+    decay_cycles: 9
+    plasticity_rate: 8.222
+    structural_changes: 0
+    avg_fragment_age: 2.613
+
+SYNAPTIC STATS:
+    total_synapses_created: 163
+    synapses_consolidated: 165
+    synapses_pruned: 61
+    volatile_synapses_decayed: 42
+    ltd_applications: 5
+    consolidation_rate: 0.608
+    avg_synaptic_weight: 0.065
+    strong_synapses: 0
+    normal: 31
+    potentiated: 0
+    depressed: 0
+    avg_adaptation_rate: 0.234
+    synaptic_efficiency: 1.012
+
+Gerando visualização avançada com foco em plasticidade sináptica...
+
+============================================================
+ANÁLISE DETALHADA DA PLASTICIDADE SINÁPTICA
+============================================================
+
+🔹 OPERAÇÕES SINÁPTICAS:
+   Sinapses criadas: 163
+   Sinapses consolidadas: 165
+   Sinapses podadas: 61
+   Sinapses voláteis decaídas: 42
+   Aplicações de LTD: 5
+
+🔹 PROPRIEDADES DA REDE SINÁPTICA:
+   Taxa de consolidação: 0.608
+   Peso sináptico médio: 0.065
+   Sinapses fortes (>0.5): 0
+   Eficiência sináptica: 1.012
+
+🔹 DISTRIBUIÇÃO DE PESOS:
+   Peso médio: 0.065
+   Desvio padrão: 0.060
+   Peso máximo: 0.408
+   Sinapses saturadas: 0
+
+🔹 VOLATILIDADE SINÁPTICA:
+   Sinapses voláteis: 100
+   Sinapses consolidadas: 155
+   Razão de volatilidade: 0.392
+
+🔹 METAPLASTICIDADE:
+   Estados de plasticidade:
+     Normal: 31
+   Frequência média de ativação: 0.234
+   Fragmentos alta frequência: 1
+
+🔹 EFICIÊNCIA DO SISTEMA:
+   Eficiência de consolidação: 1.012
+   Taxa média de adaptação: 0.234
+   Operações sinápticas/interação: 9.1
+
+🔹 PROGRESSÃO DO APRENDIZADO:
+   Consolidação inicial: 0.387
+   Consolidação final: 0.658
+   Melhoria na consolidação: +69.9%
+   Peso inicial médio: 0.082
+   Peso final médio: 0.065
+   Fortalecimento médio: -20.6%
+
+🔹 CAPACIDADES DEMONSTRADAS:
+   ✓ Saturação sináptica biológica (max: 1.0)
+   ✓ Sinapses voláteis com consolidação por uso
+   ✓ Depressão a longo prazo (LTD) para conexões fracas
+   ✓ Metaplasticidade com 1 estados
+   ✓ Homeostase através de decay diferenciado
+   ✓ Auto-organização com 163 sinapses criadas
+   ✓ Eficiência adaptativa (101.2% consolidação)
+
+🎯 CONCLUSÃO:
+O sistema demonstrou plasticidade sináptica biológicamente inspirada,
+incluindo saturação de pesos, consolidação dependente de uso,
+depressão a longo prazo e metaplasticidade adaptativa.
+Taxa de consolidação de 101.2% indica aprendizado eficiente.
+
+SISTEMA COM PLASTICIDADE SINÁPTICA IMPLEMENTADO COM SUCESSO!
+================================================================================
